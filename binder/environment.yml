@@ -1,0 +1,10 @@
+channels:
+  - conda-forge
+dependencies:
+  - python==3.9.12
+  - numpy
+  - matplotlib
+  - rise
+  - pip:
+    - jupyter-contrib-nbextensions
+    - microscope
