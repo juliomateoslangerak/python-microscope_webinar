@@ -1,11 +1,10 @@
-name: rise
 channels:
   - conda-forge
 dependencies:
-  - python==3.9.12
-  - pip
+  - python
   - numpy
   - matplotlib
+  - bokeh
   - rise
   - pip:
     - jupyter-contrib-nbextensions
