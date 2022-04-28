@@ -1,7 +1,9 @@
+name: rise
 channels:
   - conda-forge
 dependencies:
   - python==3.9.12
+  - pip
   - numpy
   - matplotlib
   - rise
